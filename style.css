@@ -66,7 +66,6 @@
   color:black ;
   font-size: 3em;
   font-weight: 600;
-  
 }
 .main h3 {
   color:black ;
@@ -74,7 +73,7 @@
   font-weight: 500;
   letter-spacing: 1px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .main-btn{
   color: aliceblue;
@@ -95,67 +94,65 @@
 }
 
 
-.form{
-  padding: 200px 200px;
-  width: 280px;
-  height: 380px;
-  background: rgb(216, 216, 216);
+.wrapper {  
+  margin-top: 80px;
+  margin-bottom:500px;
+ 
+}
+.form-signin-heading{
+  margin-bottom: 40px;
+}
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto ;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
   position: absolute;
   left: 1000px;
-  border-radius: 10px;
-  padding: 25px;
 }
-.form h2{
-  width: 240px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 2em ;
-  margin: 2px;
-  padding: 8px;
+.form-control {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  height: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
 }
 
-.form input{
-  width: 240px;
-  height: 35px;
-  background: transparent;
-  border-bottom: 1000px soild rgb(157, 22, 22);
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  color: rgb(0, 0, 0);
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  margin-top: 30px;
+input[type="email"] {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 7px;
 }
 
-.from input:focus{
-  outline: none;
+input[type="password"] {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 7px;
 }
-::placeholder{
-  color : white ;
+input[type=email]:focus {
+  background-color: lightblue;
 }
+input[type=password]:focus {
+  background-color: lightblue;
+}
+
 
 .btn{
-  width: 240px;
+  width: 100%;
   height: 40px;
   background:rgb(106, 132, 198) ;
   color: rgb(255, 255, 255);
   border: none;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 1.1em;
   font-weight: 600;
   border-radius: 15px;
-  margin-bottom: 40px;
-  cursor: pointer;
   transition: 0.7s ease;
+}
 
-}
-.btn :hover{
+
+.btn:hover{
   background-color:rgb(83, 109, 173) ;
-  transform: scale(1.1,1.1);
-}
-.btn a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+  transform: scale(1.05,1.05);
+
 }
